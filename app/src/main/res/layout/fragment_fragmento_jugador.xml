@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    tools:context=".fragmentoJugador">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imgPapel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@drawable/hola_5" />
+
+    <ImageView
+        android:id="@+id/imgPapel3"
+        android:layout_width="152dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="270dp"
+        android:clickable="true"
+        android:src="@drawable/hola_5" />
+
+    <ImageView
+        android:id="@+id/imgPiedra2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@drawable/punetazo" />
+
+    <ImageView
+        android:id="@+id/imgPiedra3"
+        android:layout_width="158dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="270dp"
+        android:clickable="true"
+        android:src="@drawable/punetazo" />
+
+    <ImageView
+        android:id="@+id/imgTijeras2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotation="270"
+        android:visibility="invisible"
+        android:src="@drawable/cortar_con_tijeras" />
+
+    <ImageView
+        android:id="@+id/imgTijeras3"
+        android:layout_width="149dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="270dp"
+        android:clickable="true"
+        android:rotation="270"
+        android:src="@drawable/cortar_con_tijeras" />
+
+</FrameLayout>
